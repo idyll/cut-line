@@ -9,7 +9,8 @@
     'submenu': [
       'label': 'Cut line'
       'submenu': [
-        { 'label': 'Cut line', 'command': 'cut-line:cut-line' }
+        { 'label': 'Cut line', 'command': 'cut-line:cut-line' },
+        { 'label': 'Copy line', 'command': 'cut-line:copy-line' }
       ]
     ]
   }

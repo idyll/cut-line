@@ -1,11 +1,12 @@
 {
   "name": "cut-line",
   "main": "./lib/cut-line",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
-  "description": "Overrides cmd-x with no selection to cut the entire line",
+  "description": "Overrides cmd-x/cmd-c with no selection to cut/copy the entire line",
   "activationEvents": [
-    "cut-line:cut-line"
+    "cut-line:cut-line",
+    "cut-line:copy-line"
   ],
   "repository": "https://github.com/tekkub/cut-line",
   "license": "None",
